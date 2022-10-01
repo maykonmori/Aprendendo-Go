@@ -59,7 +59,7 @@ func TestCalc(t *testing.T)  {
     equationSent := "32+5*2"
     // equationCorrect := "32+5*2"
     expected := 42
-    result := Calc(equationSent)
+    result := calc(equationSent)
     if result != expected {
         t.Errorf("resultado '%d', esperado '%d'", result, expected)
     }
